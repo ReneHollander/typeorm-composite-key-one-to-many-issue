@@ -1,0 +1,15 @@
+{
+  "name": "default",
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "ibex",
+  "password": "ibex",
+  "database": "ibex",
+  "synchronize": true,
+  "dropSchema": true,
+  "logging": true,
+  "entities": [
+    "src/entity/*.ts"
+  ]
+}
